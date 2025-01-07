@@ -60,7 +60,6 @@ def rony():
                 pyautogui.click(280,300)
             else:
                 say("I didn't catch that. Can you please repeat?")
-        #    user_input.lower() for word in ['exit','stop']):
             
         except Exception as e:
             print(e)
